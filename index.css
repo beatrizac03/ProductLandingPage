@@ -1,0 +1,231 @@
+:root{
+   font-size: 62.5%;
+   font-family: 'Lato';
+   background-color: #eee;
+}
+
+body{
+    margin-bottom: 0;
+}
+
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    background-color: #eee;
+    margin: 0;
+    padding-top: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+
+img{
+    height: 3.4rem;
+}
+
+a{
+    font-size: 1.5rem;
+    padding: 3rem;
+    text-decoration: none;
+    color: #000;
+}
+
+a:visited{
+    color: #000;
+}
+
+
+#container1{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8rem;
+    margin-top: 3rem;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+input[type=email]{
+    width: 140%;
+    padding: 0.5rem;
+    align-self: center;
+}
+
+input[type=submit]{
+
+    background-color: rgb(241, 173, 24);
+    border: none;
+    font-weight: bold;
+    align-self: center;
+    padding: 0.7rem;
+    width: 80%;
+    font-size: 1.8rem;
+}
+
+input[type=submit]:hover{
+    background-color: rgb(248, 142, 4);
+}
+
+
+h2{
+    font-size: 2.2rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+i{
+    font-size: 4.5rem;
+}
+
+.icon{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15vw;
+}
+
+i{
+    padding-left: 2.5rem;
+}
+
+.divcontainer2 h2{
+    margin-bottom: 0;
+}
+
+.divcontainer2 p{
+    margin-top: 0;
+    font-size: 1.6rem;
+    width: 82rem;
+}
+
+.divcontainer2{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    margin-bottom: 4rem;
+    align-items: center;
+    justify-content: center
+}
+
+#container2{
+    margin-bottom: 3rem;
+}
+
+
+
+
+
+
+#container4{
+    display: flex;
+    flex-direction: row;
+    margin-top: 7rem ;
+}
+
+div.trombone {
+    border: 0.2rem solid black;
+    height: 32rem;
+    width: 30rem;
+    margin: 1rem;
+}
+
+.trombone h3{
+    background-color: #ddd;
+    font-size: 1.5rem;
+    margin: 0;
+    text-align: center;
+    padding: 2rem 0 2rem 0;
+}
+
+.trombone h2{
+    text-align: center;
+}
+
+button{
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(241, 173, 24);
+    margin-left: 11rem;
+    margin-top: 1rem;
+}
+
+button:hover{
+    background-color: rgb(248, 142, 4);
+}
+
+.trombone ul li{
+    list-style: none;
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.trombone ul{
+    padding: 0;
+}
+
+footer{
+    background-color: #ddd;
+    width: 75%;
+    margin-top: 3rem;
+    height: 8rem;
+}
+
+
+footer ul{
+    display: flex;
+    list-style: none;
+    font-size: 1.6rem;
+    justify-content: flex-end;
+    margin-bottom: 0;
+}
+
+footer ul li{
+    padding-right: 2rem;
+
+}
+
+footer p{
+    font-size: 1.4rem;
+    color: #444;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2rem;
+    margin-top: 0;
+}
+
+@media screen and (max-width: 708px){
+    a{
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 549px ){
+    a{
+        font-size: 1rem;
+        padding: 0.8rem;
+    }
+    img{
+        height: 2rem;
+    }
+}
+
+
